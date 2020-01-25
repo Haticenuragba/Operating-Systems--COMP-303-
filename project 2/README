@@ -1,0 +1,14 @@
+To run the program, execute
+make
+then, execute following command
+./phsp.o <num_phsp> <min_think> <max_think> <min_dine> <max_dine> <dst> <num>
+a sample command is
+./phsp 5 500 1000 50 100 exponential 100
+
+program will print following things to the console
+
+Logs of thinking, hungry and eating states
+Total hungry time for each philosopher
+Average hungry time for each philosopher
+Average of average hungry time of all philosophers
+Standart deviation of average hungry time for all philosophers
